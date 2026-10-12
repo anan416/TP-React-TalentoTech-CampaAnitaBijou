@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(193, 13, 238);
+    font-style: oblique;
+    color: white;
+}
+
+header #carrito{
+    margin:auto;
+}
+
+#carrito a{
+    color:white;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: "The Nautigal", cursive;
+    display: inline;
+}
+
+header i{
+    margin-left: auto;
+}

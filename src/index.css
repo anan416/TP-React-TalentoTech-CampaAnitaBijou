@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+*::selection{
+    color: white;
+    background-color: rgba(193, 13, 238);
+}
+
+body{
+    margin: 0;
+
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+} 
+
+a{
+    color:rgb(173, 71, 199);    
+    text-decoration: none;
+}   
+
+label{
+    font-size: 1rem;
+    color: rgba(203, 66, 237);
+}
+
+input, textarea{
+    border-color: rgba(203, 66, 237);
+    border-style: dotted;
+}
+
+.icono {
+    height: 10%;
+    width: 10%;
+}
+
+.bienvenido{
+    height: 80%;
+    width: 80%;
+}
+
+.letras{
+    font-family: "Viaoda Libre", serif; 
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#contenedorCompra{
+    display:flex;
+    gap: 20px;        
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+button{
+    border-style: double;
+    border-color: rgb(193, 13, 238);
+    color: rgba(193, 13, 238);  
+    background-color: white;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.vistaCarrito{
+    text-align: center;
+}
+
+.vistaCarrito p{
+    color: rgba(193, 13, 238);
+}

@@ -1,0 +1,13 @@
+footer{
+    background-color: rgba(193, 13, 238);
+    font-style: oblique;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: auto;
+}
+
+footer a{
+    color:white;
+}
