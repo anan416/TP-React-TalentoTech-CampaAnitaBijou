@@ -86,10 +86,11 @@ form{
     margin: 20px auto;
 }
 
-.vistaCarrito{
+.vistaCarrito, .carga{
     text-align: center;
 }
 
-.vistaCarrito p{
+.vistaCarrito p, .carga{
     color: rgba(193, 13, 238);
 }
+
